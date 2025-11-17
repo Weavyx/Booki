@@ -1,9 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://booki.maximenardelli.fr/</loc>
-    <lastmod>2025-11-10</lastmod>
+    <lastmod>2025-11-17</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
+    <!-- Logo -->
+    <image:image>
+      <image:loc>https://booki.maximenardelli.fr/images/logo/Booki.png</image:loc>
+      <image:title>Logo de Booki</image:title>
+    </image:image>
+    <!-- Hébergements -->
+    <image:image>
+      <image:loc>https://booki.maximenardelli.fr/images/hebergements/fred-kleber.jpg</image:loc>
+      <image:title>Hôtel du port</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://booki.maximenardelli.fr/images/hebergements/febrian-zakaria.jpg</image:loc>
+      <image:title>Hôtel chez Amina</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://booki.maximenardelli.fr/images/hebergements/reisetopia.jpg</image:loc>
+      <image:title>Hôtel Les mouettes</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://booki.maximenardelli.fr/images/hebergements/annie-spratt.jpg</image:loc>
+      <image:title>Hôtel de la mer</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://booki.maximenardelli.fr/images/hebergements/marcus-loke.jpg</image:loc>
+      <image:title>Auberge La Canebière</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://booki.maximenardelli.fr/images/hebergements/nicate-lee.jpg</image:loc>
+      <image:title>Auberge Le Panier</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://booki.maximenardelli.fr/images/hebergements/emile-guillemot.jpg</image:loc>
+      <image:title>Hôtel Le soleil du matin</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://booki.maximenardelli.fr/images/hebergements/aw-creative.jpg</image:loc>
+      <image:title>Chambres d'hôtes Au cœur de l'eau</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://booki.maximenardelli.fr/images/hebergements/febrian-zakaria2.jpg</image:loc>
+      <image:title>Hôtel Bleu et Blanc</image:title>
+    </image:image>
+    <!-- Activités -->
+    <image:image>
+      <image:loc>https://booki.maximenardelli.fr/images/activites/reno-laithienne.jpg</image:loc>
+      <image:title>Vieux-Port de Marseille</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://booki.maximenardelli.fr/images/activites/paul-hermann.jpg</image:loc>
+      <image:title>Fort de Pomègues</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://booki.maximenardelli.fr/images/activites/kilyan-sockalingum.jpg</image:loc>
+      <image:title>Parc national des Calanques</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://booki.maximenardelli.fr/images/activites/florian-wehde.jpg</image:loc>
+      <image:title>Notre-Dame-de-la-Garde</image:title>
+    </image:image>
   </url>
 </urlset>

@@ -1,4 +1,32 @@
-User-agent: *
-Disallow:
+# Robots.txt pour Booki - Sous-domaine portfolio
+# Généré le 17 novembre 2025
 
+# Tous les robots
+User-agent: *
+Allow: /
+Disallow: /images/
+Disallow: /*.pdf$
+Disallow: /admin/
+Disallow: /api/
+Disallow: /\.git/
+
+# Délai de visite (en secondes)
+Crawl-delay: 2
+Request-rate: 1/10s
+
+# Google
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Bing
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Cloudflare
+User-agent: cf-spider
+Allow: /
+
+# Sitemap
 Sitemap: https://booki.maximenardelli.fr/sitemap.xml
