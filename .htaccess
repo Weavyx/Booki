@@ -73,9 +73,13 @@
 
     # Politique de sécurité des contenus
     Header set X-Content-Type-Options "nosniff"
-    Header set X-Frame-Options "SAMEORIGIN"
+    # REMOVED: X-Frame-Options "SAMEORIGIN" - Bloquait l'iframe du portfolio
+    # Utiliser CSP frame-src à la place si nécessaire
     Header set X-XSS-Protection "1; mode=block"
     Header set Referrer-Policy "strict-origin-when-cross-origin"
+
+    # Content Security Policy - Optimized for portfolio embed + Cloudflare Analytics
+    Header set Content-Security-Policy "default-src 'self' https://maximenardelli.fr; script-src 'self' 'unsafe-inline' https://maximenardelli.fr https://static.cloudflareinsights.com https://cloudflareinsights.com https://kit.fontawesome.com; style-src 'self' 'unsafe-inline' https://maximenardelli.fr https://kit-free.fontawesome.com; font-src 'self' https://ka-f.fontawesome.com; img-src 'self' data: https: https://maximenardelli.fr; connect-src 'self' https: https://static.cloudflareinsights.com https://cloudflareinsights.com; upgrade-insecure-requests;"
 </IfModule>
 
 # Charsets UTF-8
